@@ -1,0 +1,16 @@
+RESPOSTA DAS PERGUNTAS
+
+1) Qual a vantagem de utilizar uma única classe genérica Fila<T> em vez de criar classes específicas como:
+FilaCliente
+FilaChamado
+FilaPedido
+
+implementando a Fila<T>, é possivel centralizar os códigos, sendo mais facil posteriormente para realizar as manutenções e não necessita ao criar uma nova classe ao criar um novo domínio. Fica mais fácil de manusear e realizar manutenções.
+
+2) Como os tipos genéricos contribuem para o conceito de Type Safety?
+
+contribuem pois, garantem que seja colocado somente o tipo certo, evitando que por exemplo colocamos um gato em uma cesta de frutas e o sistema autorizando tal processo (até falhar na compilação).
+
+3) O que aconteceria se a implementação utilizasse ArrayList<Object> em vez de ArrayList<T>?
+
+Como citado na resposta anterior, erros de compilação aconteceriam, o código ficaria mais confuso e também mais dificil de manusear e tratar futuras manutenções.
